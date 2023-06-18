@@ -1,0 +1,31 @@
+/* 보통 작업할때 마진을 0으로 설정함 깔끔하게 보여서 */
+* {
+  margin: 0;
+}
+
+img {
+  width: 100px;
+}
+
+/* 따로쓰면 길어지니까 그룹을 콤마로 묶어서 색채우기 */
+
+h1,p {
+  background-color: aqua;
+}
+
+p {
+  font-style: italic;
+}
+
+.oddNumber {
+  color: blueviolet;
+}
+
+#evenNumber {
+  color: brown;
+}
+
+#title {
+  text-align: center;
+
+}

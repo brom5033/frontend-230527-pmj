@@ -1,0 +1,59 @@
+.section1 {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  float: left;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  left: 50px;
+  line-height: normal;
+
+
+
+}
+
+.section2 {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  float: left;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  left: 50px;
+  line-height: normal;
+
+
+}
+.section3 {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  float: left;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  left: 50px;
+  line-height: normal;
+
+
+}
+
+.section4 {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  float: left;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  left: 50px;
+  line-height:normal;
+
+
+}
+
+body {
+  line-height: 2;
+}

@@ -1,0 +1,23 @@
+nav {
+  background-color: aquamarine;
+  font-size: x-large;
+}
+
+.가 {
+  font-style: italic;
+}
+
+article {
+  text-align: center;
+  
+}
+
+p {
+  font-size: medium;
+  color: bisque; !important
+
+}
+
+#나 {
+  text-decoration: underline;
+}

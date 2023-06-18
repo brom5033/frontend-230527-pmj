@@ -1,0 +1,18 @@
+#가 {
+  font-family: "맑은 고딕";
+}
+
+#나 {
+  font-size: xx-small;
+}
+
+#다 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+  letter-spacing: 4px;
+  text-align: center;
+  
+}

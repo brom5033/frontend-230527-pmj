@@ -1,0 +1,10 @@
+/*  스타일 시트 화면입니다. */
+h1 {
+  width: 200px;
+  background-color: blue;
+  color: white;
+}
+
+p {
+  font-size: small;
+}

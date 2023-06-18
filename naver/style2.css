@@ -1,0 +1,39 @@
+
+ul {
+  list-style: none
+}
+
+header img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-top: 100px;
+}
+
+.option {
+  display: flex;
+  justify-content: end;
+  /* 로고랑 위치변경을 모르겠어요 */
+  /* 컬러변경이 안돼요 */
+}
+
+.form {
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 400px;
+  height: 230px;
+  border-radius: 3%;
+}
+
+.form .idAndpassword {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 380px;
+  height: 50px;
+}
+
