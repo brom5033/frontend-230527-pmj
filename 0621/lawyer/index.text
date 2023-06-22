@@ -1,0 +1,24 @@
+                <div>
+                  <h1>칼럼</h1>
+                <img src="images/ico_search1.png" alt="칼럼">
+                </div>
+                <div>
+                  <h1>성공 사례</h1>
+                <img src="images/ico_search2.png" alt="성공 사례">
+                </div>
+                <div>
+                  <h1>스토리</h1>
+                <img src="images/ico_search3.png" alt="스토리">
+                </div>
+
+
+
+
+
+                                <nav>
+                  <ul>
+                    <li class="car">칼럼<img src="images/ico_search1.png" alt="칼럼"></li>
+                    <li>성공 사례<img src="images/ico_search2.png" alt="성공 사례"></li>
+                    <li>스토리<img src="images/ico_search3.png" alt="스토리"></li>
+                  </ul>
+                </nav>
