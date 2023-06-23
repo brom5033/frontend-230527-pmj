@@ -22,3 +22,31 @@
                     <li>스토리<img src="images/ico_search3.png" alt="스토리"></li>
                   </ul>
                 </nav>
+
+
+
+
+                              <section class="nav">
+                <div class="nav_h">
+                  <p>더 많은 분야가 궁금하세요?</p>
+
+                </div>
+                <div class="nav_b">
+                  <nav>
+
+                  <ul>
+                    <li><img src="images/ico_consult_part1_off.png" alt="">
+                    <p>상속</p></li>
+                    <li><img src="images/ico_consult_part2_off.png" alt="">
+                    <p>금전</p></li>
+                    <li><img src="images/ico_consult_part3_off.png" alt="">
+                      <p>노무</p></li>
+                    <li><img src="images/ico_consult_part4_off.png" alt="">
+                      <p>부동산</p></li>
+                    <li><img src="images/ico_consult_part5_off.png" alt="">
+                      <p>지적재산권</p></li>
+                  </ul>
+                </nav>
+                </div>
+
+              </section>

@@ -363,16 +363,16 @@ background-color: yellow;
 #news {
   width: 100%;
   height: 750px;
-  background-color: blue;
-  /* background-image: url(images/bg_main_sect3.jpg);
-  background-size: 1600px; */
+  /* background-color: blue; */
+  background-image: url(images/bg_main_sect3.jpg);
+  background-size: 1600px;
 }
 
 #news_h {
   margin: 0 auto;
   width: 1200px;
   height: 260px;
-  background-color: brown;
+  /* background-color: brown; */
 }
 
 #news_h .tit .tit_im1 {
@@ -394,8 +394,150 @@ background-color: yellow;
   margin: 0 auto;
   width: 1200px;
   height: 490px;
-  background-color: pink;
+  /* background-color: pink; */
 }
+
+#news_b .img_all {
+  display: flex;
+}
+
+#news_b .img_st {
+  width: 350px;
+}
+
+#news_b article img {
+  height: 140px;
+  width: 250px;
+}
+
+#news_b article {
+  border: 1px solid gainsboro ;
+  border-radius: 8px;
+  width: 250px;
+  margin: 0 10px;
+  font-size: 13px;
+  background-color: white;
+}
+
+#news_b article h3 {
+  margin: 12px ;
+}
+
+#news_b article p {
+  margin: 12px ;
+}
+#news_b article .p_f {
+  margin-top: 30px;
+  font-weight: 900;
+}
+
+#news_b article span {
+  color: #04B4AE;
+}
+
+
+#news_b img {
+  width: 200px;
+}
+
+#news_b .img_p2 {
+  display: inline-flex;
+  height: 130px;
+
+}
+
+#news_b .img_p2 .img_f2 { 
+  display: inline-flex;
+  align-items: center;
+  width: 350px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  background-color: white;
+  margin: 5px 10px;
+  height: 125px;
+  
+}
+
+#news_b .img_p2 .img_f1 { 
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  width: 350px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+
+
+#news_b .img_p2 img {
+  width: 100px;
+}
+
+#news_b .img_p2 h2 {
+
+  margin-left: 20px;
+}
+
+#news_b .img_p2 p {
+  font-size: 15px;
+  width: 250px;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+
+#news_b section form {
+  border: 1px solid gainsboro;
+  height: 125px;
+  width: 425px;
+  margin-top: 5px;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+#news_b section form .butt {
+  width: 90px;
+  height: 20px;
+}
+
+#news_b section form h1 {
+  margin: 15px 0px 5px 20px;
+  font-size: 22px;
+}
+
+#news_b section form .butt1 {
+  width: 90px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+#news_b section form select {
+  width: 100px;
+  height: 24px;
+}
+
+#news_b section .check {
+  margin-left: 20px;
+  margin-top: 15px;
+  
+}
+
+#news_b section span {
+  color: gray;
+  font-size: 13px;
+}
+
+#news_b section .butt_f {
+  background-color: #58D3F7;
+  border: none;
+  color: white;
+  width: 70px;
+  height: 30px;
+  margin-top: 5px;
+}
+
 
 #board {
   width: 100%;
