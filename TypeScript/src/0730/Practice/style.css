@@ -1,0 +1,15 @@
+from {
+  margin-bottom: 15px;
+}
+
+#todo-list {
+  padding: 10;
+}
+
+.todo-item {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
