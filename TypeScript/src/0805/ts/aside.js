@@ -18,7 +18,7 @@ var AsideEvent = /** @class */ (function () {
         if (menuButton) {
             menuButton === null || menuButton === void 0 ? void 0 : menuButton.addEventListener('click', function () {
                 // '.menu-aside'클래스를 가진 HTML 요소를 선택해서 'menuAside'에 할당
-                var menuAside = document.querySelector('./menu-aside');
+                var menuAside = document.querySelector('.menu-aside');
                 // 'menuAside'에 'hidden-menu'클래스가 있으면, 해당 클래스를 제거하고, 메뉴 버튼의 텍스트를 ▶ 로 변경
                 if (menuAside === null || menuAside === void 0 ? void 0 : menuAside.classList.contains('hidden-menu')) {
                     menuAside.classList.remove('hidden-menu');
