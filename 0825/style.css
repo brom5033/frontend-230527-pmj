@@ -70,7 +70,7 @@ li {
   width: 100%;
   height: 600px;
   background-color: gainsboro;
-  margin: 100px 0px 0px 250px ;
+  /* margin: 100px 0px 0px 250px ; */
 }
 
 #article_d {
@@ -84,7 +84,7 @@ li {
   width: 100%;
   height: 600px;
   background-color: gainsboro;
-  margin: 70px 0px 0px 250px ;
+
 }
 
 /* b 영역 */
@@ -125,6 +125,10 @@ li {
   margin: 40px 30px 0px 0px;
 }
 
+#article_c .c_body {
+  margin: 100px 0px 0px 250px ;
+}
+
 /*! 백그라운드가 왜 왼쪽부분까지 포함이안되는지 마진떄문이면 어떻게해야 될지? */
 
 /* d 영역 */
@@ -144,10 +148,16 @@ li {
 
 /* e 영역 */
 
-#article_e e_title {
-  margin-top: 50px;
-  /*! 글자위에 회색공백을 두고싶은데 div 씌워도 안되고 h1에 클래스 달아도 안되는이유??? */
+#article_e .e_body {
+  /* margin-top: 50px; */
+  margin: 70px 0px 0px 250px ;
 }
+
+#article_e .e_title {
+  margin-top: 50px;
+}
+
+/*! 밑에서는 글자위에 공백되는데 여기는 왜 적용안되는지??? */
 
 /* 푸터 영역 */
 
@@ -164,4 +174,9 @@ li {
 
 #footer .footer_text img {
   margin: 50px 0px ;
+}
+
+#footer .footer_text2 {
+  margin-bottom: 10px;
+  font-size: 13px;
 }
