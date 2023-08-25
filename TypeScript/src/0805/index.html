@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/index.css">
@@ -12,18 +13,19 @@
   <title>Document</title>
 </head>
 <body>
+
   <div class="container">
     <aside class="menu-aside hidden-menu">
       <button class="menu-button">▶</button>
 
       <header class="aside-header">
-        <h1 class="header-title"><i class="fa-solid fa-calendar-check"></i>TODOLIST</h1>
+        <h1 class="header-title"><i class="fa-regular fa-calendar-check"></i>TODOLIST</h1>
       </header>
       <nav class="menu-nav">
         <ul class="menu-list">
           <a href="javascript:void(0)" class="menu-items">
             <li><i class="fa-regular fa-user"></i>User Information</li>
-            </a>
+          </a>
           <a href="javascript:void(0)" class="menu-items">
             <li><i class="fa-regular fa-calendar"></i>To Do List</li>
           </a>
@@ -32,9 +34,8 @@
     </aside>
     <main class="main-container">
       <header class="main-header">
-        <h1 class="main-title"> User Information </h1>
+        <h1 class="main-title">User Information</h1>
       </header>
-
       <div class="info-photo">
         <form class="photo-form">
           <input type="file" class="photo-file" name="file">
@@ -44,8 +45,12 @@
       </div>
       <div class="info-main">
         <h1 class="info-title">About Me
-          <button class="modify-button m-aboutme"><i class="fa-regular fa-pen-to-square"></i></button>
-          <button class="modify-button s-aboutme button-hidden"><i class="fa-regular fa-square-check"></i></button>
+          <button class="modify-button m-aboutme">
+            <i class="fa-regular fa-pen-to-square"></i>
+          </button>
+          <button class="modify-button s-aboutme button-hidden">
+            <i class="fa-regular fa-square-check"></i>
+          </button>
         </h1>
         <div class="info-detail">
           <div class="detail-left">
@@ -64,52 +69,46 @@
               <input type="text" id="phone" class="info-input" disabled>
             </div>
             <div class="info-input-container">
-              <label for="github">github</label>
+              <label for="github">GitHub</label>
               <input type="text" id="github" class="info-input" disabled>
             </div>
           </div>
         </div>
+        <div class="info-introduce">
+          <h1 class="info-title">
+            Self Intoduction
+            <button class="modify-button m-introduce">
+              <i class="fa-regular fa-pen-to-square"></i>
+            </button>
+            <button class="modify-button s-introduce button-hidden">
+              <i class="fa-regular fa-square-check"></i>
+            </button>
+          </h1>
+          <textarea class="introduce-input" disabled></textarea>
+        </div>
       </div>
-
-      <div class="info-introduce">
-        <h1 class="info-title">Self Intoduction
-          <button class="modify-button m-introduce"><i class="fa-regular fa-pen-to-square"></i></button>
-          <button class="modify-button s-introduce button-hidden"><i class="fa-regular fa-square-check"></i></button>
-        </h1>
-        <textarea  class="introduce-input" disabled></textarea>
-      </div>
-
     </main>
     <main class="main-container main-hidden">
       <header class="main-header">
-        <h1 class="main-title">Todo</h1>
+        <h1 class="main-title">ToDo</h1>
         <div class="todo-input-container">
           <i class="fa-regular fa-file-lines"></i>
           <input type="text" class="todo-input" placeholder="Please enter todo...">
           <button class="add-todo-button"><i class="fa-solid fa-plus"></i></button>
         </div>
       </header>
-
     </main>
   </div>
-  <div class="modal-container modal-hidden" >
+  <div class="modal-container modal-hidden">
     <div class="modal-section">
-      <div class="modal-header">
-        <h1 class="modal-title">ToDo 삭제</h1>
-      </div>
-      <div class="modal-main">
-        <p class="modal-message">ToDo를 삭제하시겠습니까?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="modal-ok-button">확인</button>
-        <button type="button" class="modal-cancel-button">취소</button>
-      </div>
     </div>
   </div>
 
-  <!-- <script src="./ts/aside.ts"></script> -->
   <script src="./ts/app.js"></script>
   <script src="./ts/aside.js"></script>
   <script src="./ts/information.js"></script>
-</body> 
+  <script src="./ts/modal.js"></script>
+  <script src="./ts/todo.js"></script>
+
+</body>
 </html>

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #00ffff; */
+}
+
+
+a {
+  text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+/* 헤더 영역 */
+#header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  align-items: center;
+  margin: 20px;
+}
+
+.header_menu a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+
+.header_login li a {
+  color: rgb(121, 125, 129);
+  margin-right: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header_login button {
+  border-radius: 30px;
+  font-size: 16px;
+  border: 2px solid grey;
+  background-color: white;
+  /* 웅진킨더박스 글자크기를 줄이고싶을때 태그? */
+  padding: 5px;
+  color: rgb(121, 125, 129) ;
+  font-weight: 550;
+}
+
+
+/* 메인 영역 */
+
+#main {
+}
+
+#article_b {
+  width: 100%;
+  height: 850px;
+  /* background-color: aquamarine; */
+  margin: 100px 0px 0px 250px ;
+}
+
+#article_c {
+  width: 100%;
+  height: 600px;
+  background-color: gainsboro;
+  margin: 100px 0px 0px 250px ;
+}
+
+#article_d {
+  width: 100%;
+  height: 600px;
+  /* background-color: #139922; */
+  margin: 100px 0px 0px 250px ;
+}
+
+#article_e {
+  width: 100%;
+  height: 600px;
+  background-color: gainsboro;
+  margin: 70px 0px 0px 250px ;
+}
+
+/* b 영역 */
+
+#article_b .article_text_a {
+  color: #002fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+#article_b .article_text_b {
+  color: rgb(84, 88, 88);
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+
+}
+
+/* c 영역 */
+
+#article_c .article_text_a {
+  color: #002fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#article_c .article_text_b {
+  color: rgb(84, 88, 88);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+#article_c li img {
+  margin: 40px 30px 0px 0px;
+}
+
+/*! 백그라운드가 왜 왼쪽부분까지 포함이안되는지 마진떄문이면 어떻게해야 될지? */
+
+/* d 영역 */
+
+#article_d .article_text_a {
+  color: #002fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#article_d .article_text_b {
+  color: rgb(84, 88, 88);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* e 영역 */
+
+#article_e e_title {
+  margin-top: 50px;
+  /*! 글자위에 회색공백을 두고싶은데 div 씌워도 안되고 h1에 클래스 달아도 안되는이유??? */
+}
+
+/* 푸터 영역 */
+
+#footer {
+  width: 100%;
+  height: 350px;
+  background-color: rgb(27, 27, 27);
+}
+
+#footer .footer_text {
+  color: rgb(155, 160, 165);
+  margin: 100px 0px 0px 250px ;
+}
+
+#footer .footer_text img {
+  margin: 50px 0px ;
+}
